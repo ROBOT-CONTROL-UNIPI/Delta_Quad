@@ -32,7 +32,7 @@ q_dot = [bx_dot;by_dot;bz_dot;phi_dot;zeta_dot;psi_dot; ...
          th31_dot;th32_dot;th33_dot;p3x_dot;p3y_dot;p3z_dot;
          th41_dot;th42_dot;th43_dot;p4x_dot;p4y_dot;p4z_dot];
 
-g = [0; 0; -9.8]; % gravity acceleration in frame {S}
+g = [0; 0; -9.8]; % gravity acceleration in frame spatial {S}
 
 % Robot geometric parameters
 robot_geom_param
