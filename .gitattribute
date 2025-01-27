@@ -1,0 +1,15 @@
+* text=auto 
+
+# Binary files 
+*.mlx binary
+*.mat binary
+*.fig binary
+*.mlapp binary
+*.mdl binary
+*.slx binary
+*.mdlp binary
+*.slxp binary
+*.sldd binary
+*.p binary
+*.mlapp binary
+*.mex* 
