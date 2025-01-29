@@ -1,5 +1,32 @@
-## Description
-Project for Robot Control class (MSc Robotics Engineering). The project models and simulates a legged robot whose legs are delta robots. The aim is to control the system to do follow a certain number of waipoints. 
+# Legged Robot with Delta-Leg Kinematics
+
+## Overview
+This project was developed for the **Robot Control** course (MSc Robotics Engineering). It focuses on modeling and simulating a **legged robot** with **delta robots as legs**, forming closed kinematic chains instead of the conventional serial-leg configurations.
+
+The kinematics and dynamics of the robot were modeled from scratch using MATLAB **Symbolic Toolbox**. The derived equations were then implemented in Simulink with quasi-velocities formulation. 
+
+## Features
+- **Kinematic and dynamic modeling** of the robot
+- **Implementation in Simulink**, including Dahl model for tangential contact dynamics
+- **Gait generation system** based on the Double Support Triangle (DST) method
+- **Control and guidance systems** for waypoint tracking
+
+## Getting Started
+To run the simulations, ensure you have MATLAB with the required toolboxes installed.
+
+```bash
+# Clone this repository
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+```
+TODO
+
+## Authors
+- [ngazzanelli](https://github.com/ngazzanelli)
+- [AlbertoNobili](https://github.com/AlbertoNobili)
+
+## References
+- B. Chen, S. Li and D. Huang, "Quadruped robot crawl gait planning based on DST," Proceedings of the 33rd Chinese Control Conference, Nanjing, China, 2014, pp. 8578-8582, doi: 10.1109/ChiCC.2014.6896440
 
 ## Folder Contents:
 1. *dynamics* folder: contains functions for computing dynamics matrices.
