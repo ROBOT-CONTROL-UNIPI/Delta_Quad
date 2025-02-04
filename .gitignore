@@ -1,6 +1,7 @@
-Matlab/*.slxc
-Matlab/*.autosave
-Matlab/*.asv
-Matlab/*.original
+**/*.slxc
+**/*.autosave
+**/*.asv
+**/*.original
+**/slprj/
 
-*.pptx
+**/*.pptx
